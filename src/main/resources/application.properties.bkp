@@ -1,0 +1,5 @@
+connection.url=
+connection.username=
+connection.password=
+//resource.input=barras.sql,compras.sql,devolucao_compras.sql,devolucao_vendas.sql,estoque.sql,filiais.sql,finalizadoras.sql,itens.sql,produtos.sql,receitas.sql,vendas.sql,vendas_analiticas.sql
+resource.input=barras.sql,filiais.sql,produtos.sql

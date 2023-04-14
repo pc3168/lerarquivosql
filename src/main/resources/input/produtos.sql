@@ -1,0 +1,13 @@
+SELECT
+      A.CD_EMP        AS CD_EMP
+     , A.CD_PROD       AS CD_PROD
+     , A.DS_PROD       AS DS_PROD
+     , A.CD_FABRIC     AS CD_FABRIC
+     , B.NM_FABRIC     AS NM_FABRIC
+     , A.CD_SC         AS CD_SC
+     , A.CD_GRP        AS CD_GRP
+     , A.CD_GRP_SUB    AS CD_GRP_SUB
+     , A.DT_ULT_ATU    AS DT_ULT_ATU
+FROM EST_PROD A
+JOIN EST_PROD_FABRIC B
+	ON B.CD_FABRIC = A.CD_FABRIC;
